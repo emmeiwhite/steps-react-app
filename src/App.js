@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import DateCounter from "./DateCounter";
 
 const messages = [
   "Learn React ⚛️",
@@ -61,6 +62,9 @@ export default function App() {
       ) : (
         ""
       )}
+
+      <hr />
+      <DateCounter />
     </>
   );
 }
